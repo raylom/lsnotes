@@ -13,6 +13,6 @@ server.get("/", (req, res) => {
   res.send("It's Alive");
 });
 
-server.use("/api/courses", notesRoutes);
+server.use("/api/notes", notesRoutes);
 
 server.listen(9000, () => console.log("\nAPI running on 9k\n"));
