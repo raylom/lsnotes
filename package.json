@@ -4,7 +4,7 @@
   "description": "trello url : https://trello.com/b/eLgUiz8G/lambda-notesbackend-ray-lomeli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/raylomeli/lsnotes/issues"
   },
-  "homepage": "https://github.com/raylomeli/lsnotes#readme"
+  "homepage": "https://github.com/raylomeli/lsnotes#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "knex": "^0.15.2",
+    "nodemon": "^1.18.5",
+    "sqlite3": "^4.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
 }
