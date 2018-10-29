@@ -4,7 +4,7 @@
   "description": "trello url : https://trello.com/b/eLgUiz8G/lambda-notesbackend-ray-lomeli",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
