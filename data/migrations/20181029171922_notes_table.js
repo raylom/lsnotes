@@ -3,8 +3,8 @@ exports.up = function(knex, Promise) {
     //primary key called id
     tbl.increments();
 
-    tbl.string("noteTitle", 255).notNullable();
-    tbl.string("noteBody", 255).notNullable();
+    tbl.string("title", 255).notNullable();
+    tbl.string("textBody", 255).notNullable();
   });
 };
 
