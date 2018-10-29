@@ -1,0 +1,20 @@
+{
+  "name": "lsnotes",
+  "version": "1.0.0",
+  "description": "trello url : https://trello.com/b/eLgUiz8G/lambda-notesbackend-ray-lomeli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raylomeli/lsnotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raylomeli/lsnotes/issues"
+  },
+  "homepage": "https://github.com/raylomeli/lsnotes#readme"
+}
